@@ -1,0 +1,85 @@
+<!-- ============================================================================== -->
+<!-- Homework                                                                       -->
+<!-- Module16   D3 challenge                                                        -->
+<!-- Date: 22-Aug-2022                                                              -->
+<!-- Note: Need to use 'python -m http.server' or localhost:8000 to run the script  -->
+<!-- ============================================================================== -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>D3Times</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/d3Style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-12">
+        <h1>D3Times</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12  col-md-9">
+        <div id="scatter">
+          <!-- We append our chart here. -->
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12  col-md-9">
+        <div class="article">
+          <h3 style="color: blue">Correlations Discovered Between Health Risks and Age, Income</h3>
+          <br>
+          <h4>Background:</h4><br>
+          <h6>- The data set is based on 2014 ACS 1-year estimates: 
+          https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml for 52 states in USA.  
+          The current data set includes data on rates of income, obesity, poverty, etc. by state.<br>
+          - Each circle represents a state, hover over the circle will show state's data base on the x and Y labels. <br>
+          - Click on any x or Y labels will show the relevant data in the scatter chart.  There are 9 options to explore.
+        </h6>
+          <br>
+          <h4>Analysis:</h4>
+          <br>
+          <h5>Healthcare, obesity and smoke</h5>
+              <h6>
+              - Texas(TX) has the highest rate for residents lacking healthcare, follow by Georgia(GA).<br>
+              - Arkansas(AR) is the highest obesitiy rate, closedly follow by West Virginia(WV), Mississippi(MS) and <br> 
+              Lousiana(LA), range from high of 35.9 down to 34.9. They also have a high poverty rate, range from high of 21.5 down to 18.3.<br>
+              - West Virginia(WV) has the highest smoking rate, followed by Kentucky(KY), range from high of 26.7 down to 26.2, they also have high poverty rate.<br>
+              - Massachuettes(MA) has the lowest rate for residents lacking healthcare.<br>
+              - Washington D.C.(DC) has the lowest rate of obesity.
+            </h6> <br>
+          <h5>Age, income and poverty</h5>          
+            <h6>       
+            - The median age range is from 30.5 to 44.1, from Utah (UT) to Maine(ME).<br>
+            - Mississippi(MS), Arkansas(AR), West Virginia(WV) are states that are at the lower income ranges. This correlates to point 2 above, where 
+            the obesitity factor also high. <br>         
+            - New Hampshire(NH) has the lowest poverty rate. The highest poverty state is Mississippi(MS), followed by New Mexico(NM).<br>
+            </h6><br>
+          </h6>
+          <p></p>
+
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer-->
+  <div id="footer">
+    <h6>Data Visualization Boot Camp&copy;2022, by Phuong Tieu</h6>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script type="text/javascript" src="assets/js/app.js"></script>
+
+</body>
+</html>
