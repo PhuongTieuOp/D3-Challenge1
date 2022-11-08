@@ -1,6 +1,7 @@
 # Data Journalism and D3
 
 ## Link to access to webpage: 
+https://phuongtieuop.github.io/D3-Challenge1/
 
 ## Background
 
