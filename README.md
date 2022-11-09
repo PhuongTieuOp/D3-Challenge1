@@ -1,4 +1,4 @@
-# Health Risk Data Journalism
+# Health Risk Journalism
 
 ## Webpage link: 
 https://phuongtieuop.github.io/D3-Challenge1/
