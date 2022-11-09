@@ -3,7 +3,7 @@
 ## Webpage link: 
 https://phuongtieuop.github.io/D3-Challenge1/
 
-## Background
+## Objectives:
 
 ![Newsroom](https://media.giphy.com/media/v2xIous7mnEYg/giphy.gif)
 
