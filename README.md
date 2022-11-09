@@ -15,8 +15,6 @@ The data set included with the assignment is based on 2014 ACS 1-year estimates:
 
 ### Dynamic interaction with different risk factors
 
-![7-animated-scatter](Images/7-animated-scatter.gif)
-
 #### More Data, More Dynamics
 
 ![7-animated-scatter](Images/7-animated-scatter.gif)
